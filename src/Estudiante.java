@@ -2,8 +2,13 @@ public class Estudiante extends Persona {
     String matricula = "";
     String carrera = "";
     double promedio;
+
+    public static void main (String[] ars)
+    {
+        Estudiante Rita = new Estudiante("Rita","Perez","1222",18,"martin fierro", "12345" , "2025-001", "turismo", 7);
+    }
 public Estudiante (String nombre,String apellido, String numeroid,
-                   int edad, String direccion, String telefono) {
+                   int edad, String direccion, String telefono, String matricula, String carrera , double promedio) {
     super(nombre, apellido, numeroid, edad, direccion, telefono);
     this.matricula= matricula;
     this.carrera = carrera;
@@ -43,8 +48,6 @@ public Estudiante (String nombre,String apellido, String numeroid,
     @Override
     public void mostrarinfo() {
         super.mostrarinfo();
-        System.out.println("Matrícula: " + matricula);
-        System.out.println("Carrera: " + carrera);
-        System.out.println("Promedio: " + promedio);
+        System.out.println("Matrícula: " + matricula+"\n Carrera: "+ carrera + "\n Promedio : "+ promedio);
     }
 }

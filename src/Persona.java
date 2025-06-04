@@ -13,6 +13,7 @@ public class Persona {
     public static void main (String[] ars)
     {
         Persona jorge = new Persona("jorge","rojas","12342",20,"malvinas argentinas","23456");
+
         jorge.mostrarinfo();
         jorge.saludar();
     }
