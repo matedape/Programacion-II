@@ -49,6 +49,7 @@ public void setNombre(String nombre)
      }
      else{
          System.out.println("La edad ingresada no es valida");
+         this.edad = 0;
      }
  }
 
