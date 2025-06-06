@@ -5,9 +5,10 @@ public class Estudiante extends Persona {
 
     public static void main (String[] ars)
     {
-        Estudiante Rita = new Estudiante("Rita","Perez","1222",18,"martin fierro",
+        Estudiante Rita = new Estudiante("Rita","Perez","1222",18,"martin fierro 676",
                 "12345" , "2025-001", "turismo", 7);
         Rita.mostrarinfo();
+        Rita.estudiar();
     }
 public Estudiante (String nombre,String apellido, String numeroid,
                    int edad, String direccion, String telefono, String matricula, String carrera , double promedio) {
